@@ -10,10 +10,10 @@ echo "Installing pip dependencies"
 
 python3 -m pip3 install -r requirements.txt -q
 
-echo "Cleaning up css/js files"
-
-rm -r static/css
-rm -r static/js
+# echo "Cleaning up css/js files"
+#
+# rm -r static/css
+# rm -r static/js
 
 echo "Collecting static files"
 
